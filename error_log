@@ -1,0 +1,19 @@
+[30-Jul-2025 09:46:57 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 09:55:56 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 09:55:56 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 09:55:57 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:17:01 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:17:05 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:17:06 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:17:06 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:03 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:08 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:10 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:25 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:26 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:18:43 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ruax7678_root'@'localhost' to database 'ruax7678_chat_app' in /home/ruax7678/public_html/db.php on line 2
+[30-Jul-2025 10:20:14 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ruax7678/public_html/send.php:29) in /home/ruax7678/public_html/send.php on line 35
+[01-Aug-2025 04:07:31 Asia/Jakarta] PHP Notice:  Undefined index: subject_key in /home/ruax7678/public_html/index.php on line 9
+[01-Aug-2025 04:07:31 Asia/Jakarta] PHP Notice:  Undefined index: username in /home/ruax7678/public_html/index.php on line 10
+[01-Aug-2025 16:44:22 Asia/Jakarta] PHP Warning:  shell_exec() has been disabled for security reasons in /home/ruax7678/public_html/git-pull.php on line 11
+[01-Aug-2025 16:46:00 Asia/Jakarta] PHP Warning:  shell_exec() has been disabled for security reasons in /home/ruax7678/public_html/git-pull.php on line 11
