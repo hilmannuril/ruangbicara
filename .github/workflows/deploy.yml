@@ -14,10 +14,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy ke Rumahweb via SFTP
-        uses: easingthemes/sftp-deploy@v1.1.0  # <-- Ganti ke versi v1.1.0
+        uses: SamKirkland/SFTP-Deploy-Action@v1.0.0  # <-- Ganti ke action SFTP dari Sam Kirkland
         with:
           server: ruangbicara.online
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-          remote_path: /home/hilmunr/public_html/  # <-- Pastikan username Anda benar
+          remote-path: public_html/  # <-- Gunakan remote-path yang relatif
