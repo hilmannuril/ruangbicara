@@ -1,4 +1,4 @@
-name: ftp-deploy
+name: sftp-deploy
 
 on:
   push:
@@ -6,17 +6,18 @@ on:
       - main
 
 jobs:
-  ftp-deploy:
-    name: Deploy ke Rumahweb via FTP
+  sftp-deploy:
+    name: Deploy ke Rumahweb via SFTP
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Deploy ke Rumahweb via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Deploy ke Rumahweb via SFTP
+        uses: wlixy/sftp-deploy-action@v1.2.0 # Menggunakan action SFTP yang berbeda
         with:
           server: ruangbicara.online
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: public_html/
+          port: 22 # Port default untuk SFTP
+          remote_path: /home/ruax7678/public_html/ # Ganti 'ruax7678' dengan username cPanel Anda
