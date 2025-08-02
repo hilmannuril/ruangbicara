@@ -111,7 +111,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="text" name="subject_key" placeholder="subject key" required>
         <input type="text" name="username" placeholder="Enter username" required>
         <button type="submit">Login</button>
-        <h2>test saja dong - by hilman-j</h2>
     </form>
 </body>
 </html>
