@@ -1,21 +1,23 @@
-name: Deploy ke Rumahweb
+name: sftp-deploy
 
 on:
   push:
     branches:
-      - main  # atau sesuaikan dengan nama branch kamu
+      - main
 
 jobs:
-  ftp-deploy:
+  sftp-deploy:
+    name: Deploy ke Rumahweb via SFTP
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Deploy ke FTP Rumahweb
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ftp.namapengguna.rumahweb.com
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/
+      - name: Deploy ke Rumahweb via SFTP
+        uses: appleboy/sftp-action@master
+        with:
+          host: ruangbicara.online
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 22
+          target: /home/ruax7678/public_html/
