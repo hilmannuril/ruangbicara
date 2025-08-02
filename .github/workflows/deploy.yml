@@ -1,0 +1,21 @@
+name: Deploy ke Rumahweb
+
+on:
+  push:
+    branches:
+      - main  # atau sesuaikan dengan nama branch kamu
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Deploy ke FTP Rumahweb
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ftp.namapengguna.rumahweb.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /public_html/
