@@ -1,0 +1,14 @@
+name: Auto Deploy via PHP Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call PHP Deploy Script
+        run: |
+          curl "https://ruangbicara.online/scripts/deploy.php"
