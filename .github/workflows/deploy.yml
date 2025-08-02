@@ -14,9 +14,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy ke Rumahweb via SFTP
-        uses: shs/sftp-upload@v1.2.0
+        uses: appleboy/sftp-action@master
         with:
           host: ruangbicara.online
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          remote_path: /home/ruax7678/public_html/  # Path sudah dikoreksi
+          port: 22
+          target: /home/ruax7678/public_html/
