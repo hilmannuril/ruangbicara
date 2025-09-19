@@ -107,11 +107,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <form method="post">
         <img src="assets/logo.png" alt="Logo Ruang Bicara" width="370">
-        <h2>Aplikasi Ruang Rungu PDP 2025</h2>
+        <h2>Aplikasi Ruang Rungu </h2>
         <input type="text" name="subject_key" placeholder="subject key" required>
         <input type="text" name="username" placeholder="Enter username" required>
         <button type="submit">Login</button>
-        <p>hahahaha</p>
     </form>
 </body>
 </html>
